@@ -1,0 +1,19 @@
+{
+  "version": "20.0.0",
+  "files": {
+    "c1b17f37b9dbd36940b927d85873bee581b9489b99091139da340c4e855f10da": {
+      "source": {
+        "path": "AppSecWorkshopStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "c1b17f37b9dbd36940b927d85873bee581b9489b99091139da340c4e855f10da.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
